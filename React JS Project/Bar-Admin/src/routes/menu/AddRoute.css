@@ -1,0 +1,23 @@
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.MuiDataGrid-cell--editable:focus {
+    outline: solid #1976d2 1px !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaderCheckbox .MuiDataGrid-columnHeaderTitleContainer {
+    display: none;
+}
+
+.MuiDataGrid-columnHeaders:focus {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+}

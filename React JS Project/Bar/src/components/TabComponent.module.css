@@ -1,0 +1,41 @@
+.tab {
+opacity: 50%;
+background-color: white;
+margin-bottom: 70px;
+font-weight: 300;
+padding: 20px;
+border-radius: 5px;
+color: #adaeb9;
+display: grid;
+grid-template-columns: minmax(150px, 1fr) 2fr;
+grid-gap: 20px;
+text-decoration: none;
+color: inherit;
+box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.tab__focus {
+    animation: smoothAppear 0.5s;
+    opacity: 100%;
+}
+
+@keyframes smoothAppear {
+    from {
+        opacity: 50%;
+        transform: translateY(-5%);
+    }
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+.tab__title,
+
+.tab__title a {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+    text-decoration: none;
+}

@@ -1,0 +1,559 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden] {
+    display: none;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b,
+strong {
+    font-weight: bold;
+}
+dfn {
+    font-style: italic;
+}
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+mark {
+    background: #ff0;
+    color: #000;
+}
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre-wrap;
+}
+q {
+    quotes: "\201C""\201D""\2018""\2019";
+}
+small {
+    font-size: 80%;
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+img {
+    border: 0;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+figure {
+    margin: 0;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend {
+    border: 0;
+    padding: 0;
+}
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+button,
+input {
+    line-height: normal;
+}
+button,
+select {
+    text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,400,700,800);
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: "codropsicons";
+    src: url("../fonts/codropsicons/codropsicons.eot");
+    src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/codropsicons/codropsicons.woff") format("woff"),
+        url("../fonts/codropsicons/codropsicons.ttf") format("truetype"),
+        url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    background: #b4bad2;
+    color: #fffce1;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+a {
+    color: #4e4a46;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    color: #c94e50;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+section {
+    padding: 1em;
+    text-align: center;
+}
+
+/* Header */
+.codrops_header {
+    margin: 0 auto;
+    padding: 3em 2em;
+    text-align: center;
+}
+
+.codrops_header h1 {
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 3.75em;
+    line-height: 1;
+}
+
+.codrops_header h1 span {
+    display: block;
+    font-size: 50%;
+    font-weight: 400;
+    padding-top: 0.325em;
+}
+
+.codrops-links {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.69em;
+    line-height: 2.2;
+    padding: 1.61em 5em;
+}
+
+.codrops-links a {
+    display: inline-block;
+    padding: 0 1em;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.codrops-icon:before {
+    margin: 0 4px;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-family: "codropsicons";
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+    content: "\e001";
+}
+
+.codrops-icon-prev:before {
+    content: "\e004";
+}
+
+/* Demo Buttons Style */
+.codrops_demos {
+    align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 1em;
+    max-width: 1200px;
+    background-color: #b4bad2;
+}
+
+.codrops_demos > a {
+    display: inline-block;
+    margin: 0.75em;
+    padding: 1.35em 1.1em;
+    width: 15em;
+    background: #fffce1;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    border-radius: 20px/50px;
+}
+
+/* Related demos */
+.related {
+    margin-top: 5em;
+    padding: 0 3em 5em;
+}
+
+.related p {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.related > a {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 25px;
+    border-radius: 35px/200px;
+    background: #fffce1;
+    max-width: 100%;
+}
+
+.related a img {
+    max-width: 100%;
+    opacity: 0.8;
+    border-radius: 20px/100px;
+}
+
+.related a:hover img,
+.related a:active img {
+    opacity: 1;
+}
+
+.related a h3 {
+    margin: 0;
+    padding: 0.5em 0.75em 0.3em;
+    max-width: 300px;
+    text-align: left;
+}
+
+body #cdawrap {
+    top: auto;
+    bottom: 35px;
+    right: 35px;
+    background: #b4bad2;
+    border: 1px solid rgba(131, 135, 151, 0.6);
+}
+
+.demo-wave body #cdawrap {
+    top: 35px;
+    right: 35px;
+    bottom: auto;
+}
+
+@media screen and (max-width: 40em) {
+    body {
+        font-size: 80%;
+    }
+    .codrops_header h1 {
+        font-size: 2.5em;
+    }
+    .codrops_demos {
+        max-width: 900px;
+        padding: 2em 2em 0;
+    }
+    .related > a {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 25em) {
+    .codrops-icon {
+        font-size: 250%;
+    }
+
+    .codrops-icon span {
+        display: none;
+    }
+}
+html,
+body,
+.container,
+.content_wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-wrap a {
+    color: #b8b7ad;
+}
+
+.menu-wrap a:hover,
+.menu-wrap a:focus {
+    color: #c94e50;
+}
+
+.content_wrap {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #b4bad2;
+}
+
+/* Overlay */
+.content::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    content: "";
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0s 0.3s;
+    transition: opacity 0.3s, transform 0s 0.3s;
+}
+
+/* Menu Button */
+.menu-button {
+    position: fixed;
+    z-index: 1000;
+    margin: 1em;
+    padding: 0;
+    width: 2.5em;
+    height: 2.25em;
+    border: none;
+    text-indent: 2.5em;
+    font-size: 1.5em;
+    color: transparent;
+    background: transparent;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.menu-button::before {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    background: linear-gradient(
+        #373a47 20%,
+        transparent 20%,
+        transparent 40%,
+        #373a47 40%,
+        #373a47 60%,
+        transparent 60%,
+        transparent 80%,
+        #373a47 80%
+    );
+    content: "";
+}
+
+.menu-button:hover {
+    opacity: 0.6;
+}
+/* Menu */
+.menu-wrap {
+    position: absolute;
+    font-weight: 700;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.menu-top {
+    line-height: 58px;
+}
+
+.menu-top .profile {
+    display: inline-block;
+    padding: 8px 10px;
+    line-height: 42px;
+}
+
+.menu-top .profile,
+.menu-side {
+    width: 300px;
+}
+
+.menu-top .profile img {
+    float: left;
+    margin-right: 1em;
+}
+
+.icon-list {
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+.icon-list a {
+    margin: 0 1em 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 32em) {
+    .icon-list {
+        padding-left: 1em;
+    }
+}
+
+.menu-side a {
+    display: block;
+    padding: 1.2em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu-side a:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Shown menu */
+.show-menu .menu-wrap {
+    opacity: 1;
+}
+
+.show-menu .content_wrap,
+.show-menu .menu-button {
+    -webkit-transform: translate3d(300px, 60px, 0);
+    transform: translate3d(300px, 60px, 0);
+}
+
+.show-menu .content::before {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+body {
+    overflow: hidden;
+    width: 100%;
+    background: #b4bad2;
+    color: #fffce1;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: "Raleway", Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    -webkit-text-size-adjust: 100%;
+}
+.container {
+}

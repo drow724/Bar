@@ -1,0 +1,262 @@
+html {
+    cursor: none;
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
+.click_right {
+  position: relative;
+  transform: translate(150px);
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items : center;
+  border-radius: 50%;
+}
+
+.click_right:active {
+  background-color: grey;
+}
+
+.click_left {
+  position: relative;
+  transform: translate(-95px);
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items : center;
+  border-radius: 50%;
+}
+
+.click_left:active {
+  background-color: grey;
+}
+
+.click_up {
+  position: relative;
+  transform: translate(-75px) translateY(-70px);
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items : center;
+  border-radius: 50%;
+}
+
+.click_up:active {
+  background-color: grey;
+}
+
+.click_down {
+  position: relative;
+  transform: translate(25px) translateY(70px);
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items : center;
+  border-radius: 50%;
+}
+
+.click_down:active {
+  background-color: grey;
+}
+
+.click_volume_up {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.click_volume_up:active {
+  background-color: grey;
+}
+
+.click_volume_down {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.click_volume_down:active {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.click_channel_up {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.click_channel_up:active {
+  background-color: grey;
+}
+
+.click_channel_down {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.click_channel_down:active {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.mute:active {
+  background-color: grey;
+}
+
+.transition-group {
+    position: relative;
+}
+
+.pageSlider-enter {
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.pageSlider-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.pageSlider-exit {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.pageSlider-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #e5e5e5;
+    border-radius: 30px;
+    height: 650px;
+    width: 350px;
+  }
+  
+  div.menu-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-bottom: 1px solid #c2c1c1;
+    border-left: 1px solid #c2c1c1;
+  }
+  
+  div.menu-grid>div {
+    padding: 10px 35px;
+    border-top: 1px solid #c2c1c1;
+    border-right: 1px solid #c2c1c1;
+  }
+  
+  span.label {
+    font-size: 12px;
+    color: #8e8e8e;
+  }
+  
+  div.menu-grid>div>i {
+    color: #2e2e2e;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  div.menu-grid>div>i.active {
+    color: #d51600;
+  }
+  
+  div.rounded-bg {
+    background: #d9d9d9;
+    border-radius: 50px;
+  }
+  
+  div.grey-bg {
+    background: #d9d9d9;
+    border-radius: 50%;
+  }
+  
+  i.home-icon {
+    font-size: 24px;
+    color: #a1a1a1;
+  }
+  
+  i.control-icon {
+    font-size: 24px;
+    color: #2e2e2e;
+  }
+  
+  div.circle {
+    border: 1px solid #c2c1c1;
+    border-radius: 50%;
+  }
+  
+  div.ok-inner {
+    border-radius: 50%;
+    padding: 30px;
+  }
+  
+  div.ok-inner:active {
+    background-color: grey;
+  }
+  
+  div.ok-outer {
+    padding: 100px;
+  }
+  
+  .home:active {
+    background-color: grey;
+  }
+
+  i.right {
+    transform: translate(70px);
+  }
+  
+  i.rotate_bottom {
+    transform: rotate(90deg);
+  }
+  
+  i.rotate_left {
+    transform: rotate(180deg);
+  }
+  
+  i.rotate_top {
+    transform: rotate(270deg);
+  }

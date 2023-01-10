@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/barAdmin/static/css/main.6463cc76.css",
+    "main.js": "/barAdmin/static/js/main.f6b29ed9.js",
+    "static/media/codropsicons.svg": "/barAdmin/static/media/codropsicons.72426cdc07774b3db653.svg",
+    "static/media/codropsicons.eot": "/barAdmin/static/media/codropsicons.e849869741e7fc0f5c35.eot",
+    "static/media/codropsicons.woff": "/barAdmin/static/media/codropsicons.461456164a1b51ba4e3d.woff",
+    "static/media/codropsicons.ttf": "/barAdmin/static/media/codropsicons.217957377b4357df6d5a.ttf",
+    "index.html": "/barAdmin/index.html",
+    "main.6463cc76.css.map": "/barAdmin/static/css/main.6463cc76.css.map",
+    "main.f6b29ed9.js.map": "/barAdmin/static/js/main.f6b29ed9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6463cc76.css",
+    "static/js/main.f6b29ed9.js"
+  ]
+}

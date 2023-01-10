@@ -1,0 +1,49 @@
+@keyframes smoothAppear {
+    from {
+        opacity: 0%;
+        transform: translateY(-5%);
+    }
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+.kind {
+    width: 400px;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    font-size: 35px;
+    margin-right: 50px;
+}
+
+.result {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.remove {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-left: 40px;
+}
