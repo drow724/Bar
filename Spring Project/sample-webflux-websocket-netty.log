@@ -1,0 +1,26 @@
+2022-09-20 10:34:45.562  INFO 8432 --- [main] com.bar.BarApplication                   : Starting BarApplication using Java 11.0.13 on DESKTOP-9RK13OO with PID 8432 (C:\Users\USER\git\bar_backend\bin\main started by USER in C:\Users\USER\git\bar_backend)
+2022-09-20 10:34:45.569  INFO 8432 --- [main] com.bar.BarApplication                   : No active profile set, falling back to 1 default profile: "default"
+2022-09-20 10:34:47.049  INFO 8432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2022-09-20 10:34:47.070  INFO 8432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 R2DBC repository interfaces.
+2022-09-20 10:34:48.524  INFO 8432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-09-20 10:34:48.543  INFO 8432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-20 10:34:48.544  INFO 8432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-20 10:34:48.769  INFO 8432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-20 10:34:48.770  INFO 8432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2977 ms
+2022-09-20 10:34:50.388  INFO 8432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-09-20 10:34:50.434  INFO 8432 --- [main] com.bar.BarApplication                   : Started BarApplication in 6.003 seconds (JVM running for 13.004)
+2022-09-20 10:51:56.215  INFO 8432 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-20 10:51:58.687  INFO 8432 --- [RMI TCP Connection(19)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-20 10:53:38.332  INFO 14532 --- [main] com.bar.BarApplication                   : Starting BarApplication using Java 11.0.13 on DESKTOP-9RK13OO with PID 14532 (C:\Users\USER\git\bar_backend\bin\main started by USER in C:\Users\USER\git\bar_backend)
+2022-09-20 10:53:38.337  INFO 14532 --- [main] com.bar.BarApplication                   : No active profile set, falling back to 1 default profile: "default"
+2022-09-20 10:53:40.265  INFO 14532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2022-09-20 10:53:40.326  INFO 14532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 R2DBC repository interfaces.
+2022-09-20 10:53:44.225  INFO 14532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-09-20 10:53:44.281  INFO 14532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-20 10:53:44.282  INFO 14532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-20 10:53:45.324  INFO 14532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-20 10:53:45.325  INFO 14532 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6903 ms
+2022-09-20 10:53:47.139  INFO 14532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-09-20 10:53:47.152  INFO 14532 --- [main] com.bar.BarApplication                   : Started BarApplication in 9.753 seconds (JVM running for 14.04)
+2022-09-20 10:55:16.609  INFO 14532 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-20 10:55:18.397  INFO 14532 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]

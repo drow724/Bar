@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 8084
+  
+api:
+  barcode:
+    key: 9b6f1dd50b4f48ce87a1
+    
+webclient:
+  h2-console-port: 8090
+
+springbootwebfluxjjwt:
+  jjwt:
+    expiration: 3600
+    re-expiration: 86400
+  password:
+    encoder:
+      iteration: 33
+      keylength: 256
